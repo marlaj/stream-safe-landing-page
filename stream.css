@@ -128,10 +128,38 @@ li{
     max-width: 100%; 
     height: auto; 
     margin-bottom: 10%;
+    margin-right: 0%;
+    padding-right: 0%;
   }
 
-  @media (max-width: 970px) {
+  .intro{
+    margin-top: 10%;
+  }
+  .grid1{
+    margin-left: 5% !important;
+  }
+
+  @media (max-width: 950px) {
     .download {
         background-image: none; /* Hide the image */
     }
-}
+    .intro{
+      margin-top: 25%;
+    }
+    .grid2{
+      display: none;
+    }
+    .grid1{
+      margin-right: 5% !important; 
+    }
+    }
+    
+  @media(min-width:992px)
+  {
+    .dropdown{
+      display: none !important;
+    }
+    .questions{
+      margin-left: 10% !important; 
+    }
+  }
