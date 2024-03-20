@@ -38,10 +38,6 @@ body{
 .ssn{
     margin-top: 30px;
 }
-.downloadBtn{
-    color: white;
-    background-color: black;
-}
 
 .nav-link, .streamNav {
     color: black;
@@ -92,6 +88,21 @@ li{
     width: 100%;
     height: 50px;
     font-size: 20px;
+    text-decoration: none;
+  }
+
+  .buttonLink{
+    color: white;
+    width: 100%;
+    height: 100%;
+  }
+
+  .buttonLink:hover{
+    color: black;
+  }
+
+  .downloadButton:hover{
+    color: black;
   }
   
   .downloadButton .text {
@@ -119,6 +130,11 @@ li{
   }
   .accordion-item{
     margin-bottom: 10%;
+  }
+
+  .accordion-header{
+    cursor: pointer;
+
   }
   .download{
     background-image: url('background.png');
